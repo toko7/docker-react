@@ -3,4 +3,4 @@ services:
   - docker
 
 before_install:
-  - docker build -t eliga27/aaa -f Dockerfile.dev .
+  - docker build -t eliga27/docker-react -f Dockerfile.dev .
